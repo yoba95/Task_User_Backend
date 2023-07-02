@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title Nuevas Categorias
+  body
+    form(action="/categories" method="POST")
+        input(type='text' name="title" placeholder='Título de la categoría')
+        input(type='color' name="color" placeholder="color")
+        input(type="submit" value="Guardar")

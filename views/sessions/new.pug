@@ -1,0 +1,9 @@
+doctype html 
+html
+    head
+        title Login
+    body 
+        form(action="/sessions" method="POST")
+            input(type="email" name="email" placeholder="Correo electronico")
+            input(type="password_hash" name="password_hash" placeholder="Contraseña")
+            input(type="submit" value="Iniciar Sesión")
